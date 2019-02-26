@@ -1,14 +1,18 @@
 {
-  "name": "client",
+  "name": "locashare-client",
   "version": "0.1.0",
   "private": true,
+  "description": "Client for Locashare, a location sharing site/app.",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "bootstrap": "^4.3.1",
+    "nanoid": "^2.0.1",
     "register-service-worker": "^1.5.2",
+    "socket.io-client": "^2.2.0",
     "vue": "^2.6.6",
     "vue-router": "^3.0.1"
   },
@@ -22,5 +26,7 @@
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0",
     "vue-template-compiler": "^2.5.21"
-  }
+  },
+  "author": "Travis Horn (https://travishorn.com)",
+  "license": "MIT"
 }
