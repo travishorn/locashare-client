@@ -2,20 +2,20 @@
 
 ## Client
 
-Client for Locashare, a location sharing site/app.
+Client for Locashare, a location sharing site/app. [View server repository](https://github.com/travishorn/locashare-server)
 
 ### Installation
 
 Clone the repository.
 
 ```
-> git clone https://github.com/travishorn/locashare-server.git
+> git clone https://github.com/travishorn/locashare-client.git
 ```
 
 Move into directory
 
 ```
-> cd locashare-server
+> cd locashare-client
 ```
 
 Install dependencies
@@ -29,7 +29,7 @@ Install dependencies
 #### Compiles and hot-reload for development
 
 ```
-npm run serve
+> npm run serve
 ```
 
 The client will be served on port 8080.
@@ -37,7 +37,7 @@ The client will be served on port 8080.
 #### Compile and minify for production
 
 ```
-npm run build
+> npm run build
 ```
 
 Built files will be written to `dist/`.
@@ -45,13 +45,13 @@ Built files will be written to `dist/`.
 ### Run you tests
 
 ```
-npm run test
+> npm run test
 ```
 
 ### Lint and fix files
 
 ```
-npm run lint
+> npm run lint
 ```
 
 This client can interface with the [Locashare Server](https://github.com/travishorn/locashare-server).
